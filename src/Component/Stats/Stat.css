@@ -1,0 +1,83 @@
+.imp{
+    color: blue;
+    font-weight: 800;
+    padding: 15px 15px 5px 15px;
+    text-align: center;
+    
+}
+.header{
+    font-weight: 800;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    color: white;
+}
+.containerss{
+    display: flex;
+    padding: 20px 15px 5px 15px;
+    text-align: center;
+    background-color: black;
+    
+}
+.paper{
+    
+    border: 1.5px solid rgba(39, 39, 39,0.3);
+    background-color:black;
+    border-radius: 3px;
+}
+.digit{
+    font-size: 32px;
+    font-weight: 1000;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+.area{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+    
+}
+.mains{
+    background-color: black;
+    padding-top: 35px;
+    border-radius:7px;
+    padding: 8px;
+    border: 2px solid rgb(44, 44, 44);
+}
+.red{
+    color:crimson;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+}
+.te{
+    color: white;
+    font-weight: 800;
+}
+.le{
+    color: white;
+    font-weight: 800;
+}
+.button{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.butn{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
+    height: 35px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+}

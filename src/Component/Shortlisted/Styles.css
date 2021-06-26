@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+
+.left{
+    /* // text-align: left; */
+    display: flex;
+    flex-direction: column;
+     justify-content: space-around;
+     width: 100%;
+     color: white;
+ }
+ .title{
+   margin-top: 30px;
+   padding-top: 14px;
+   margin-left: 10px;
+   color: white;
+   font-weight:550;
+   
+ }
+ /* .text{
+   margin-top: 10px;
+   color: white;
+
+ } */
+ .content1{
+     display: flex;
+     background-color: rgb(0, 58, 248);
+     /* width: 100%; */
+ }
+ .right{
+     text-align: right;
+     justify-content: flex-end;
+     width: 100%;
+     color:white;
+     margin: 10px 10px ;
+ }
+ .grow2{
+   color: rgb(255, 255, 255);
+   padding-top: 10px;
+   padding-left: 10px;
+   margin-top: 10px;
+   font-size: 14px;
+ }
+ .text{
+     color: white;
+     margin-top: 18px;
+     padding-top: 18px;
+     margin-left: 10px;
+     padding-left: 10px;
+ }
+body {
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.circle-wrap {
+  margin: 18px auto 10px auto;
+  width: 100px;
+  height: 100px;
+  background: #46e3ff;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask2,
+.circle-wrap .circle .fill2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask2 {
+  clip: rect(0px, 100px, 100px, 50px);
+  background-color: #ffffff;
+}
+
+.circle-wrap .circle .mask2 .fill2 {
+  clip: rect(0px, 50px, 100px, 0px);
+  background-color: #ffffff;
+}
+
+.circle-wrap .circle .mask2.full2,
+.circle-wrap .circle .fill2 {
+  animation: fill ease-in-out 3s;
+  transform: rotate(63deg);
+}
+
+@keyframes fill2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(63deg);
+  }
+}
+
+.circle-wrap .inside-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgb(79, 176, 255);
+  line-height: 80px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 1.1em;
+}
